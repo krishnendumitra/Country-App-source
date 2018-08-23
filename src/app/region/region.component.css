@@ -1,0 +1,53 @@
+.region-holder {
+  height: 200px;
+}
+
+.as, .af, .am, .oc, .eu {
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+}
+
+.as:hover, .am:hover, .eu:hover, .af:hover, .oc:hover {
+  -webkit-box-shadow: 0 5px 24px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 5px 24px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 5px 24px 2px rgba(0, 0, 0, 0.75);
+  transform: scale(1.009);
+
+}
+
+.as {
+  background: url("../../assets/images/as.jpg") no-repeat;
+  background-size: cover;
+}
+
+.am {
+  background: url("../../assets/images/am.jpg") no-repeat;
+  background-size: cover;
+}
+
+.af {
+  background: url("../../assets/images/af.jpg") no-repeat;
+  background-size: cover;
+}
+
+.oc {
+  background: url("../../assets/images/oc.jpg") no-repeat;
+  background-size: cover;
+}
+
+.eu {
+  background: url("../../assets/images/eu.jpg") no-repeat;
+  background-size: cover;
+}
+
+.western, .pacific {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #212121,
+  1px -1px 0 #212121,
+  -1px 1px 0 #212121,
+  1px 1px 0 #212121;
+}
+
